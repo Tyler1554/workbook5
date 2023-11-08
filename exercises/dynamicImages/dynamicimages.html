@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Images</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <form>
+        <label for="imageList">Image</label>
+        <select id="imageList">
+          Choose an Image
+          <option value="">Select . . .</option>
+        </select>
+        <button type="button" id="clearImagesButton">Clear</button>
+        <button type="button" id="addImageButton">Add</button>
+      </form>
+      <div id="imagesDiv"></div>
+    </main>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

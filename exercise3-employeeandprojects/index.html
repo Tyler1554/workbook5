@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees and Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <label for="selectEmployeeDrop" >Employee List</label>
+            <select id="selectEmployeeDrop" onchange="addInfo()">
+              Choose an Employee
+              <option value="">Select . . .</option>
+            </select>
+          </form>
+          <table id="employeeDataTable">
+            <thead></thead>
+            <tbody id="employeeDataTableBody"></tbody>
+          </table>
+
+
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

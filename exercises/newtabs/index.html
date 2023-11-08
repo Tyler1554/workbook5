@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+</head>
+<body>
+    <main>
+    <button id="codeButton">Learn To Code</button>
+    <button id="googleButton">Use Google</button>
+    <button id="pictureButton"> Look at Cool Pictures</button>
+    </main>
+
+    <script>
+        let codeButton= document.getElementById("codeButton");
+        let googleButton= document.getElementById("googleButton");
+        let pictureButton= document.getElementById("pictureButton");
+    
+        function openCode(){
+            window.open("https://www.w3schools.com/js/DEFAULT.asp");
+        }
+
+        function openGoogle(){
+            window.open("https://www.google.com/");
+        }
+
+        function openPicture(){
+            window.open("http://127.0.0.1:5500/exercises/newtabs/images.html","_self")
+        }
+
+        codeButton.onclick = openCode;
+        googleButton.onclick = openGoogle;
+        pictureButton.onclick = openPicture;
+
+    
+    </script>
+</body>
+</html>
