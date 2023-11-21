@@ -263,6 +263,8 @@ function loadEmployeeList() {
 
 
 function addInfo() {
+  employeeDataTableBody.innerHTML = "";
+  employeeDataTableBody.computedStyleMap.display = "block";
   const id = selectEmployeeDrop.value;
   for (const employee of employees) {
       const number = employee.projectsAssignedTo
